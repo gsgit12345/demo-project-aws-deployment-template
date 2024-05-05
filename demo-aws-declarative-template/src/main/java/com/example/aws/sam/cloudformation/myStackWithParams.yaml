@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+  Resources:
+    myStackWithParam:
+      Type: AWS::CloudFormation::Stack
+      Properties:
+        NotificationARNs:
+          NotificationARNs
+        Parameters:
+          InstanceType: t1.micro
+          KeyName: my key name
+        TemplateURL: "https://s3.amazonaws.com/cloudformation-templates-us-east-2/EC2ChooseAMI.template"
+        TimeoutInMinutes: 5

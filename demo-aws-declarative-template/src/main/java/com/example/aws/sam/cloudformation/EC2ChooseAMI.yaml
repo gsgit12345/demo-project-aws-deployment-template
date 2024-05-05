@@ -1,0 +1,12 @@
+AWSTemplateFormateVersion: '2010-09-09'
+    Resources:
+      mystackWithParam :
+         Type: AWS::CloudFormation::Stack
+         Properties:
+           NotificationARNs: 
+             NotificationARNs
+           Parameters:
+           Tags: 
+             Tags
+           TemplateURL: "String" # Required
+           TimeoutInMinutes: Number

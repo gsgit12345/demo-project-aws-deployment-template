@@ -11,6 +11,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 
   <packaging>pom</packaging>
+  <modules>
+    <module>demo-aws-declarative-template</module>
+  </modules>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
